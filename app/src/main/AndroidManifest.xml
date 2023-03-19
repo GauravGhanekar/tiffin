@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TIFFINservice"
+        tools:targetApi="31">
+<!--        <activity-->
+<!--            android:name=".UpdateDelete_Dish"-->
+<!--            android:exported="false" />-->
+        <activity
+            android:name=".mess_postDish"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryBoy_Sendotp"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryFoodPanel_BottomNavigation"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryBoy_VerifyPhone"
+            android:exported="false" />
+        <activity
+            android:name=".UserForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanale_BottomNavigation"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyPhone"
+            android:exported="false" />
+        <activity
+            android:name=".Messsendotp"
+            android:exported="false" />
+        <activity
+            android:name=".MessForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".MessFoodPanel_BottomNavigation"
+            android:exported="false" />
+        <activity
+            android:name=".MessVerifyPhone"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryBoy_Registration"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryBoy_Loginphone"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryBoy_Login"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".UserLoginphone"
+            android:exported="false" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MessRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Messloginphone"
+            android:exported="false" />
+        <activity
+            android:name=".Messlogin"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseOne"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
